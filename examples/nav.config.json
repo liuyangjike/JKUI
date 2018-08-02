@@ -1,0 +1,27 @@
+{
+  "开发指南": [
+    {
+      "name": "guide",
+      "path": "/guide",
+      "desc": "介绍"
+    }
+  ],
+  "组件": [
+    {
+      "desc": "基础组件",
+      "path": "/",
+      "items": [
+        {
+          "desc": "Layout 布局",
+          "path": "/layout",
+          "name": "layout"
+        },
+        {
+          "desc": "Button 按钮",
+          "path": "/button",
+          "name": "button"
+        }
+      ]
+    }
+  ]
+}
