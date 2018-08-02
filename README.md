@@ -17,7 +17,7 @@
 ## 使用jk-ui
 >1. npm install --save jk-ui
 >2. 在Vue项目里的`main.js`
->>import JKUI from 'jk-ui'
->>import 'jk-ui/theme-default/lib/index.css'
->>Vue.use(JKUI)
+>>`import JKUI from 'jk-ui'`<br/>
+>>`import 'jk-ui/theme-default/lib/index.css'`<br/>
+>>`Vue.use(JKUI)`
 
