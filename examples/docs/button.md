@@ -50,11 +50,13 @@
       <j-button type="info" plain=true>信息按钮</j-button>
     </div>
     <div>
-      <j-button size="default" type="primary" >默认大小按钮</j-button>
-      <j-button size="medium" >中等按钮</j-button> 
-      <j-button size="small" >小按钮</j-button> 
+      <j-button type="default" round>默认按钮</j-button>
+      <j-button type="primary" round>主要按钮</j-button>
+      <j-button type="success" round>成功按钮</j-button>
+      <j-button type="warning" round>警告按钮</j-button>
+      <j-button type="danger" round>危险按钮</j-button>
+      <j-button type="info" round>信息按钮</j-button>
     </div>
-
   ```
   :::
 </div>
