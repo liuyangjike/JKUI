@@ -27,7 +27,7 @@
           "name": "layout"
         },
         {
-          "desc": "icon 图标",
+          "desc": "Icon 图标",
           "path": "/icon",
           "name": "icon"
         },

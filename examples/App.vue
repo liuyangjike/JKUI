@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <main-header></main-header>
-    <j-row style="min-height:630px">
+    <j-row class="page-body">
       <div class="contianer">
         <side-nav class="nav"></side-nav>
         <router-view class="view"/>
@@ -30,12 +30,17 @@ export default {
 
 <style>
 @import "./assets/css/index";
+  .page-body{
+    min-height: 630px;
+    box-shadow: rgba(223, 225, 230, 0.5) 0px 4px 30px 0px;
+    width: 90%;
+    margin: 48px auto;
+  }
   .contianer {
     margin: 48px auto;
-    width: 90%;
+    width: 100%;
     display: block;
     background-color: rgb(182, 31, 31);
-    box-shadow: rgba(229, 250, 223, 0.5) 0px 4px 30px 0px;
   }
   .footer {
     display: block;
