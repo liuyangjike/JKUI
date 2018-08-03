@@ -33,6 +33,7 @@
     margin: 32px 0;
     padding: 0;
     color: 3F536E;
+    height: 100%;
     background-color: #fff;
     z-index: 10;
   }

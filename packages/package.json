@@ -1,0 +1,22 @@
+{
+  "name": "jk-ui",
+  "version": "1.0.4",
+  "description": "UI base on Vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/liuyangjike/JKUI.git"
+  },
+  "keywords": [
+    "UI"
+  ],
+  "author": "Jike",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liuyangjike/JKUI/issues"
+  },
+  "homepage": "https://github.com/liuyangjike/JKUI#readme"
+}

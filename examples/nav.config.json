@@ -4,6 +4,16 @@
       "name": "guide",
       "path": "/guide",
       "desc": "介绍"
+    },
+    {
+      "name": "install",
+      "path": "/install",
+      "desc": "安装"
+    },
+    {
+      "name": "start",
+      "path": "/start",
+      "desc": "快速开始"
     }
   ],
   "组件": [
@@ -15,6 +25,11 @@
           "desc": "Layout 布局",
           "path": "/layout",
           "name": "layout"
+        },
+        {
+          "desc": "icon 图标",
+          "path": "/icon",
+          "name": "icon"
         },
         {
           "desc": "Button 按钮",
