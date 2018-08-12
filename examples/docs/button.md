@@ -6,7 +6,7 @@
 <div class="demo-box">
   <div class="demo-block">
     <div>
-      <j-button type="default">默认按钮</j-button>
+      <j-button type="default" >默认按钮</j-button>
       <j-button type="primary">主要按钮</j-button>
       <j-button type="success">成功按钮</j-button>
       <j-button type="warning">警告按钮</j-button>

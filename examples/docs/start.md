@@ -17,9 +17,9 @@
 
 ```bash
 > npm i -g vue-cli
-> mkdir my-project && cd my-project
-> vue init webpack
-> npm i && npm i element-ui
+ > mkdir my-project && cd my-project
+ > vue init webpack
+ > npm i && npm i jk-ui --save
 ```
 
 ## 标准开发
@@ -32,7 +32,7 @@
 
 ```js
 import JKUI from 'jk-ui' // 引入组件库
-import 'jk-ui/packages/theme-default/lib/index.css' // 引入样式库
+ import 'jk-ui/packages/theme-default/lib/index.css' // 引入样式库
 
 Vue.use(VvUI)
 ```
@@ -61,6 +61,3 @@ export default {
 </template>
 ```
 
-## 自定义主题
-
-`JK-UI` 各个组件的样式变量都存放在 `jk-ui/packages/theme-defualt/common/var.css` 文件中。用户可根据实际需要，自定义组件的样式

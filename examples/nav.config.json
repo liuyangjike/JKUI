@@ -14,6 +14,11 @@
       "name": "start",
       "path": "/start",
       "desc": "快速开始"
+    },
+    {
+      "name": "logs",
+      "path": "/logs",
+      "desc": "更新日志"
     }
   ],
   "组件": [
@@ -35,6 +40,22 @@
           "desc": "Button 按钮",
           "path": "/button",
           "name": "button"
+        },
+        {
+          "desc": "Tag 标签",
+          "path": "/tag",
+          "name": "tag"
+        }
+      ]
+    },
+    {
+      "desc": "视图组件",
+      "path": "/",
+      "items": [
+        {
+          "desc": "Message 信息",
+          "path": "/message",
+          "name": "message"
         }
       ]
     }

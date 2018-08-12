@@ -66,8 +66,9 @@
     display: block;
     position: relative;
     padding: 6px 0px 6px 24px;
-    color: #616367;
+    color: #2C405A;
     font-size: 14px;
+    font-weight: bold;
   }
   .side-nav .group-container .side-nav-items .side-nav-component{
     display: block;

@@ -1,6 +1,6 @@
 <template>
   <button 
-    @click="$emit(click)"
+    @click="$emit('click')"
     class="j__button"
     :disabled="disabled"
     :class="[

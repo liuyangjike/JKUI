@@ -24,6 +24,9 @@ export default {
     mainHeader,
     sideNav,
     mainFooter
+  },
+  created() {
+    console.log(this)
   }
 }
 </script>
@@ -31,7 +34,7 @@ export default {
 <style>
 @import "./assets/css/index";
   .page-body{
-    min-height: 630px;
+    min-height: 600px;
     box-shadow: rgba(223, 225, 230, 0.5) 0px 4px 30px 0px;
     width: 90%;
     margin: 48px auto;

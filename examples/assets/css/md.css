@@ -7,7 +7,7 @@ section div{
 }
 .demo-box>div{
   width: 95%;
-  margin: 0 auto;
+  margin: 15px auto;
 }
 .demo-block{
   padding-top: 10px;
