@@ -286,7 +286,7 @@
 
 ### 全局方法
 
-Element 为 Vue.prototype 添加了全局方法 $message。因此在 vue instance 中可以采用本页面中的方式调用 `Message`。
+jk-ui 为 Vue.prototype 添加了全局方法 $message。因此在 vue instance 中可以采用本页面中的方式调用 `Message`。
 
 ### 单独引用
 

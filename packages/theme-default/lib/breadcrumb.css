@@ -1,0 +1,55 @@
+.j-breadcrumb{
+  font-size: 14px;
+  line-height: 1
+}
+
+.j-breadcrumb::after,
+.j-breadcrumb::before{
+  display: table;
+  content: ""
+}
+
+.j-breadcrumb::after{
+  clear: both;
+}
+
+.j-breadcrumb__separator{
+  margin: 0 9px;
+  font-weight: 700;
+  color: #c0c4cc;
+}
+
+.j-breadcrumb__separator[class*=icon] {
+  margin: 0 6px;
+  color: #c0c4cc;
+  font-weight: 600;
+}
+
+.j-breadcrumb__item {
+  float: left;
+}
+
+.j-breadcrumb__inner{
+  color: #606266
+}
+
+.j-breadcrumb__inner a,
+.j-breadcrumb__inner.is-link{
+  font-weight: 700;
+  text-decoration: none;
+  -webkit-transition: color .2s cubic-bezier(.645, .045, .355, 1);
+  transition: color .2s cubic-bezier(.645, .045, .355, 1);
+  color: #303133
+}
+.j-breadcrumb__item:last-child .j-breadcrumb__inner,
+.j-breadcrumb__item:last-child .j-breadcrumb__inner a,
+.j-breadcrumb__item:last-child .j-breadcrumb__inner a:hover,
+.j-breadcrumb__item:last-child .j-breadcrumb__inner:hover{
+  font-weight: 400;
+  color: #606266;
+  cursor: text
+}
+
+.j-breadcrumb__item:last-child .j-breadcrumb__separator{
+  color: #ffffff
+}

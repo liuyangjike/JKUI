@@ -56,6 +56,11 @@
           "desc": "Message 信息",
           "path": "/message",
           "name": "message"
+        },
+        {
+          "desc": "Breadcrumb 面包屑",
+          "path": "/breadcrumb",
+          "name": "breadcrumb"
         }
       ]
     }

@@ -4,4 +4,5 @@
 @import './row.css';
 @import './icon.css';
 @import './transition.css';
-@import './message.css'
+@import './message.css';
+@import './breadcrumb.css';
