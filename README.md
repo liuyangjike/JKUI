@@ -1,6 +1,6 @@
 ## 介绍
 
-`jk-ui` 是一款基于 `Vue.js 2.0` 的前端 UI 组件库, 其中文件夹package为jk-ui源码
+`jk-ui` 是一款基于 `Vue.js 2.0` 的前端 `UI`组件库, 其中文件夹`package`为`jk-ui`源码
 整个项目为jk-ui的API
 
 ## 在线演示
