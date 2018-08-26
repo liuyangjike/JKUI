@@ -1,6 +1,10 @@
 {
   "开发指南": [
     {
+      "path": "/",
+      "redirect": "/guide"
+    },
+    {
       "name": "guide",
       "path": "/guide",
       "desc": "介绍"
@@ -61,6 +65,11 @@
           "desc": "Breadcrumb 面包屑",
           "path": "/breadcrumb",
           "name": "breadcrumb"
+        },
+        {
+          "desc": "Card 卡片",
+          "path": "/card",
+          "name": "card"
         }
       ]
     }
