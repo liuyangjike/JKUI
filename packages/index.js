@@ -10,13 +10,16 @@ import JTag from './tag/index'
 import Message from './message/index'
 import JBreadcrumb from './breadcrumb/index'
 import JBreadcrumbItem from './breadcrumb-item/index'
+import JCard from './card/index'
+
 const components = [
   JButton,
   JCol,
   JRow,
   JTag,
   JBreadcrumb,
-  JBreadcrumbItem
+  JBreadcrumbItem,
+  JCard
 ]
 
 

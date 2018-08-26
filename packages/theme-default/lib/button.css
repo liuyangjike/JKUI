@@ -254,3 +254,34 @@
   color: #ff4949
 }
 
+
+.j__button--text {
+  color: #409EFF;
+  background: 0 0;
+  padding-left: 0;
+  padding-right: 0
+}
+
+.j__button--text:focus,
+.j__button--text:hover {
+  color: #66b1ff;
+  border-color: transparent;
+  background-color: transparent
+}
+
+.j__button--text:active {
+  color: #3a8ee6;
+  background-color: transparent
+}
+
+.j__button--text,
+.j__button--text.is-disabled,
+.j__button--text.is-disabled:focus,
+.j__button--text.is-disabled:hover,
+.j__button--text:active {
+  border-color: transparent
+}
+
+.j__button.is-disabled.j__button--text {
+  background-color: transparent
+}

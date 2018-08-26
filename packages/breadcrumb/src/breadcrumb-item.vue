@@ -29,7 +29,7 @@
     mounted() {
       this.separator = this.jBreadcrumb.separator
       this.separatorClass = this.jBreadcrumb.separatorClass
-      const link = this.$refs.link
+      const link = this.$refs.link  // 获取span元素
       link.setAttribute('role', 'link')
       link.addEventListener('click', _ => {
         const {to, $router} = this
