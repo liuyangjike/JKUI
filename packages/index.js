@@ -11,6 +11,7 @@ import Message from './message/index'
 import JBreadcrumb from './breadcrumb/index'
 import JBreadcrumbItem from './breadcrumb-item/index'
 import JCard from './card/index'
+import towTable from './two-dimensional-table/index';
 
 const components = [
   JButton,
@@ -19,7 +20,8 @@ const components = [
   JTag,
   JBreadcrumb,
   JBreadcrumbItem,
-  JCard
+  JCard,
+  towTable
 ]
 
 
