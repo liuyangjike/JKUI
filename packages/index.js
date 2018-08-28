@@ -33,5 +33,13 @@ const install = function(Vue) {
 
 
 export default {
-  install
+  install,
+  JButton,
+  JCol,
+  JRow,
+  JTag,
+  JBreadcrumb,
+  JBreadcrumbItem,
+  JCard,
+  towTable
 }
