@@ -7,7 +7,7 @@
 
 > 在使用之前，推荐学习 `Vue` 和 `ES2016` ，并正确配置 `Node.js` v6.x 或以上版本
 
-`VV-UI` 基于 `Vue.js` 2.x+ 版本开发，所以有必要了解以下基础知识：
+`jk-ui` 基于 `Vue.js` 2.x+ 版本开发，所以有必要了解以下基础知识：
 - [Vue 组件](https://cn.vuejs.org/v2/guide/components.html)
 - [单文件组件](https://cn.vuejs.org/v2/guide/single-file-components.html)
 
@@ -34,7 +34,7 @@
 import JKUI from 'jk-ui' // 引入组件库
  import 'jk-ui/packages/theme-default/lib/index.css' // 引入样式库
 
-Vue.use(VvUI)
+Vue.use(JKUI)
 ```
 
 ### 单个组件按需使用
