@@ -1,7 +1,9 @@
 <template>
   <div class="page-header">
-    <div class="logo"><img src="../assets/img/logo.png" alt=""></div>
-    <div class="ui" >JK-UI</div>
+    <div class="logo">
+      <img src="../assets/img/jkui.png">
+    </div>
+    <!-- <div class="ui" >JK-UI</div> -->
   </div>
 </template>
 
@@ -22,8 +24,9 @@
   }
   .page-header .logo img{
     margin-top: 10px;
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 65px;
+    margin-left: 5px;
   }
   .page-header .ui{
     float: left;
