@@ -1,6 +1,6 @@
 ## JK-UI
 
-![](https://img.shields.io/badge/license-MIT-orange.svg)
+![](https://img.shields.io/badge/vue-2.5.2-orange.svg)
 ![](https://img.shields.io/badge/cheerio-1.0.0-grey.svg)  ![](https://img.shields.io/badge/vue-markdown-loader-2.4.1-blue.svg)
 ![](https://img.shields.io/badge/license-MIT-orange.svg)
 
