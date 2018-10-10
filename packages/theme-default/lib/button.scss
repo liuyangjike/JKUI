@@ -1,0 +1,245 @@
+@import './style/mixins.scss';
+.j__button {
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #bfcbd9;
+  color: $color-base;
+  -webkit-appearance: none;
+  text-align: center;
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+  border-radius: 4px;
+  padding: 12px 20px;
+  font-size: 14px;
+}
+
+.j__button.is-round {
+  border-radius: 20px;
+}
+
+.j__button--size-medium {
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.j__button--size-small {
+  padding: 9px 15px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+.j__button--default {
+  background: #fff;
+  border: 1px solid #bfcbd9;
+  color: $color-base;
+  &:hover,&:focus{
+    @include diabled-color(63, 170, 245, .05, .08);
+    color: $color-primary;
+  }
+  &:active{
+    background: #fff;
+    outline: 0
+  }
+  &:disabled {
+    background: #fff;
+    border: 1px solid $color-primary;
+    color: $color-base;
+    @include disabled;
+  }
+}
+
+.j__button--default.is-plain {
+  border: 1px solid $color-primary;
+  &:hover,&:focus {
+    background: #fff;
+    border-color: rgba(63, 170, 245, .8);
+    color: $color-primary;
+  }
+  &:active {
+    background: #fff;
+    outline: 0
+  }
+  &:disabled {
+    @include disabled;
+    background: #fff;
+    border: 1px solid #bfcbd9;
+    color: $color-base;
+  }
+}
+
+.j__button--primary {
+  @include button-type($color-primary);
+  color: #fff;
+  &:focus,&:hover{
+    @include focus-hover;;
+  }
+  &:disabled {
+    @include disabled;  
+  }
+}
+
+.j__button--primary.is-plain {
+  background: rgba(63, 170, 245, .05);
+  border-color: $color-primary;
+  color: $color-primary;
+  &:focus,&:hover{
+    opacity: 1;
+    @include button-type($color-primary);
+    color: #fff;
+  }
+  &:disabled {
+    @include disabled;
+    @include diabled-color(63, 170, 245, .05, .08);
+    color: $color-primary; 
+  }
+}
+
+.j__button--success {
+  @include button-type($color-success);
+  color: #fff;
+  &:focus,&:hover{
+    @include focus-hover;;
+  }
+  &:disabled {
+    @include disabled;
+  }
+}
+
+.j__button--success.is-plain {
+  @include diabled-color(19, 206, 102, .05, .8);
+  color: $color-success;
+  &:focus,&:hover{
+    opacity: 1;
+    background: $color-success;
+    border: 1px solid $color-success;
+    color: #fff;
+  }
+  &:disabled {
+    @include disabled;
+    @include diabled-color(63, 170, 245, .05, .08);
+    color: $color-primary;
+  }
+}
+
+
+.j__button--info {
+  @include button-type($color-info);
+  color: #fff;
+  &:focus,&:hover{
+    @include focus-hover;;
+  }
+  &:disabled {
+    @include disabled;
+  }
+}
+
+
+.j__button--info.is-plain {
+  background: #f4f4f5;
+  border-color: #d3d4d6;
+  color: $color-info;
+  &:focus,&:hover{
+    opacity: 1;
+    @include button-type($color-info);
+    color: #fff
+  }
+  &:disabled {
+    @include disabled;
+    @include diabled-color(80, 191, 255, .05, .08);
+    color: #50bfff;
+  }
+}
+
+.j__button--warning {
+  @include button-type($color-warning);
+  color: #fff;
+  &:focus,&:hover{
+    @include focus-hover;;
+  }
+  &:disabled {
+    @include disabled;
+  }
+}
+
+
+
+.j__button--warning.is-plain {
+  @include diabled-color(247, 186, 42, .05, .08);
+  color: $color-warning;
+  &:focus,&:hover{
+    @include button-type($color-warning);
+    color: #fff
+  }
+  &:disabled {
+    @include disabled;
+    @include diabled-color(247, 186, 42, .05, .08);
+    color: $color-warning;
+  }
+}
+
+
+.j__button--danger {
+  @include button-type($color-danger);
+  color: #fff;
+  &:focus,&:hover{
+    @include focus-hover;; 
+  }
+  &:disabled {
+    @include disabled;
+    
+  }
+}
+
+.j__button--danger.is-plain {
+  @include diabled-color(255, 73, 73, .05, .08);
+  color: $color-danger;
+  &:focus,&:hover{
+    opacity: 1;
+    @include button-type($color-danger);
+    color: #fff;
+  }
+  &:disabled {
+    @include disabled;
+    @include diabled-color(255, 73, 73, .05, .08);
+    color: $color-danger
+  }
+}
+
+
+.j__button--text {
+  color: #409EFF;
+  background: 0 0;
+  padding-left: 0;
+  padding-right: 0;
+  &:focus,&:hover{
+    color: #66b1ff;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  &:disabled {
+    @include disabled;
+    @include diabled-color(255, 73, 73, .05, .08);
+    color: $color-danger
+  }
+  &:active{
+    color: #3a8ee6;
+    background-color: transparent
+  }
+}
+
+.j__button--text,
+.j__button--text.is-disabled,
+.j__button--text.is-disabled:focus,
+.j__button--text.is-disabled:hover,
+.j__button--text:active {
+  border-color: transparent
+}
+
+.j__button.is-disabled.j__button--text {
+  background-color: transparent
+}

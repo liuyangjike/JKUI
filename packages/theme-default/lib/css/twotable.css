@@ -1,0 +1,25 @@
+ .j-table {
+   text-align: center;
+   border-collapse: separate;
+   width: 100%
+ }
+
+ .j-table th {
+   padding: 12px 0px;
+   border-bottom: 1px solid #c2c4c7;
+   border-right: 1px solid #c2c4c7;
+   border-top: 1px solid #c2c4c7;
+ }
+
+ .j-table td {
+   border-bottom: 1px solid #c2c4c7;
+   border-right: 1px solid #c2c4c7;
+   padding: 12px 0px;
+   min-width: 0;
+   box-sizing: border-box;
+   text-overflow: ellipsis;
+ }
+
+ .j-table .first-column {
+   border-left: 1px solid #c2c4c7;
+ }

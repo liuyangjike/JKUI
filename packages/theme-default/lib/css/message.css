@@ -1,0 +1,125 @@
+.j-message__closeBtn:focus,
+.j-message__content:focus {
+  outline-width: 0
+}
+
+.j-message {
+  min-width: 380px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ebeef5;
+  position: fixed;
+  left: 50%;
+  top: 20px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #edf2fc;
+  -webkit-transition: opacity .3s, -webkit-transform .4s;
+  transition: opacity .3s, -webkit-transform .4s;
+  transition: opacity .3s, transform .4s;
+  transition: opacity .3s, transform .4s, -webkit-transform .4s;
+  overflow: hidden;
+  padding: 15px 15px 15px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+
+.j-message.is-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center
+}
+
+.j-message.is-closable .j-message__content {
+  padding-right: 16px
+}
+
+.j-message p {
+  margin: 0
+}
+
+.j-message--info .j-message__content {
+  color: #909399
+}
+
+.j-message--success {
+  background-color: #f0f9eb;
+  border-color: #e1f3d8
+}
+
+.j-message--success .j-message__content {
+  color: #67c23a
+}
+
+.j-message--warning {
+  background-color: #fdf6ec;
+  border-color: #faecd8
+}
+
+.j-message--warning .j-message__content {
+  color: #e6a23c
+}
+
+.j-message--error {
+  background-color: #fef0f0;
+  border-color: #fde2e2
+}
+
+.j-message--error .j-message__content {
+  color: #f56c6c
+}
+
+.j-message__icon {
+  margin-right: 10px
+}
+
+.j-message__content {
+  padding: 0;
+  font-size: 14px;
+  line-height: 1
+}
+
+.j-message__closeBtn {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #c0c4cc;
+  font-size: 16px
+}
+
+.j-message__closeBtn:hover {
+  color: #909399
+}
+
+.j-message .j-icon-plane {
+  color: #67c23a
+}
+
+.j-message .j-icon-closefill {
+  color: #f56c6c
+}
+
+.j-message .j-icon-message {
+  color: #909399
+}
+
+.j-message .j-icon-remindfill {
+  color: #e6a23c
+}
+
+.j-message-fade-enter,
+.j-message-fade-leave-active {
+  opacity: 0;
+  -webkit-transform: translate(-50%, -100%);
+  transform: translate(-50%, -100%)
+}

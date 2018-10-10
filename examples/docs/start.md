@@ -17,8 +17,11 @@
 
 ```bash
 > npm i -g vue-cli
+
  > mkdir my-project && cd my-project
+
  > vue init webpack
+
  > npm i && npm i jk-ui --save
 ```
 
@@ -32,9 +35,10 @@
 
 ```js
 import JKUI from 'jk-ui' // 引入组件库
+
  import 'jk-ui/packages/theme-default/lib/index.css' // 引入样式库
 
-Vue.use(JKUI)
+ Vue.use(JKUI)
 ```
 
 ### 单个组件按需使用
@@ -45,7 +49,9 @@ Vue.use(JKUI)
 import { JButton } from 'jk-ui'
 
 export default {
+
   components: {
+
     JButton
   }
 }
@@ -55,9 +61,13 @@ export default {
 
 ```html
 <template>
+
   <div>
+
     <j-button>这是一个按钮</j-button>
+
   </div>
+  
 </template>
 ```
 

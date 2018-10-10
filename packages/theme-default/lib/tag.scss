@@ -1,0 +1,70 @@
+.j__tag,
+.j__tag--default {
+  color: #3f536e;
+  background-color: #f7f7f7
+}
+
+.j__tag {
+  display: inline-block;
+  padding: 1px 8px;
+  font-size: 0;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  border: 1px solid #dfdfdf;
+  border-radius: 4px;
+  outline: 0
+}
+
+.j__tag--close,
+.j__tag--desc {
+  font-size: 13px!important;
+}
+
+.j__tag--desc {
+  margin-right: 2px
+}
+
+.j__tag--default {
+  border-color: #dfdfdf
+}
+
+.j__tag--success {
+  @include diabled-color(18, 206, 102, .1, .2);
+  color: $color-success;
+}
+
+.j__tag--success .j-tag__close:hover {
+  background-color: $color-success;
+  color: #fff
+}
+
+.j__tag--primary {
+  @include diabled-color(63, 170, 245, .1, .2);
+  color: #3FAAF5
+}
+
+.j__tag--primary .j-tag__close:hover {
+  background-color: #3FAAF5;
+  color: #fff
+}
+
+.j__tag--warning {
+  @include diabled-color(247, 186, 41, .1, .2);
+  color: $color-warning;
+}
+
+.j__tag--warning.j-tag__close:hover {
+  background-color: $color-warning;
+  color: #fff
+}
+
+.j__tag--danger {
+  @include diabled-color(255, 73, 73, .1, .2);
+  color: $color-danger;
+}
+
+.j__tag--danger .j-tag__close:hover {
+  background-color: $color-danger;
+  color: #fff
+}

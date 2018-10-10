@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/vue-2.5.2-blue.svg)
 ![](https://img.shields.io/badge/vue--cli-2.8.5-green.svg)
 ![](https://img.shields.io/badge/vue--router-3.0.1-ff69b4.svg)
-![](https://img.shields.io/badge/vue--markdown--loader-2.4.1-aaaaaa.svg)
+![](https://img.shields.io/badge/vue--markdown--loader-2.4.1-yellow.svg)
 ![](https://img.shields.io/badge/markdown--it--container-2.4.1-003366.svg)
 ![](https://img.shields.io/badge/license-MIT-orange.svg)
 

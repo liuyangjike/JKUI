@@ -1,0 +1,25 @@
+$color-success: #13ce66 !default;
+$color-warning: #f7ba2a !default;
+$color-danger: #ff4949 !default;
+$color-info: #909399 !default;
+$color-primary: #3FAAF5;
+$color-base: #1f2d3d;
+
+@mixin focus-hover {
+  opacity: .7;  
+}
+
+@mixin disabled{
+  opacity: .3;
+  cursor: not-allowed;
+}
+
+@mixin diabled-color($r, $g, $b, $bo, $co) {
+  background: rgba($r, $g, $b, $bo);
+  border-color: rgba($r, $g, $b, $co);
+}
+
+@mixin button-type($color) {
+  background: $color;
+  border: 1px solid $color;
+}
