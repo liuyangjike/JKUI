@@ -22,9 +22,9 @@
 - 使用 `npm + webpack + babel` 的工作流，支持 ES6
 - 提供友好的 API，可灵活的使用组件
 
-# 说明
+## 说明
 > 觉得对你有帮助,请点右上角的`Star`支持一下</br>
-> 该项目的博客地址 [点这里](https://juejin.im/post/5b87b5d46fb9a01a0a4ec3ee) </br>
+> 该项目的博客讲解地址 [点这里](https://juejin.im/post/5b87b5d46fb9a01a0a4ec3ee) </br>
 > 推荐一下我的另一个项目基于react的饿了吗项目(全家桶, 很适合react进阶用) [点这里](https://github.com/liuyangjike/react-elm)
 
 ## 启动
