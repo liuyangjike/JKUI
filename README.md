@@ -23,13 +23,18 @@
 - 提供友好的 API，可灵活的使用组件
 
 ## 启动
->1. npm intall
->2. npm run dev
+```
+npm intall
+npm run dev
+```
 
 ## 使用jk-ui
->1. `npm install --save jk-ui`
->2. 在Vue项目里的`main.js`
->>`import JKUI from 'jk-ui'`<br/>
->>`import 'jk-ui/theme-default/lib/index.css'`<br/>
->>`Vue.use(JKUI)`
+ 1. npm install --save jk-ui
+ 2. 在Vue项目里的main.js
+```
+import JKUI from 'jk-ui'
+import 'jk-ui/theme-default/lib/index.css'
+Vue.use(JKUI)`
+```
+
 
