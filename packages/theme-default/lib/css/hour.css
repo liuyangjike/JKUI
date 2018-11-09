@@ -105,7 +105,8 @@
    width: 5px;
    height: 0%;
    top: 50%;
-   left: 46%;
+   left: 50%;
+   box-sizing: border-box;
    border-radius: 40%;
    border: 1px sold #fff;
    animation: sand-falling 4s linear infinite;

@@ -49,7 +49,8 @@
       sandWidth () {
         return {
           width: this.size?'3px':'5px',
-          backgroundColor: this.sandColor
+          backgroundColor: this.sandColor,
+          transform: `translateX(${this.size?'-1.5px':'-2.5px'})`
         }
       }
     }
