@@ -12,6 +12,8 @@ import JBreadcrumb from './breadcrumb/index'
 import JBreadcrumbItem from './breadcrumb-item/index'
 import JCard from './card/index'
 import towTable from './two-dimensional-table/index';
+import Hour from './hour/index';
+
 
 const components = [
   JButton,
@@ -21,7 +23,8 @@ const components = [
   JBreadcrumb,
   JBreadcrumbItem,
   JCard,
-  towTable
+  towTable,
+  Hour
 ]
 
 
@@ -41,5 +44,6 @@ export default {
   JBreadcrumb,
   JBreadcrumbItem,
   JCard,
-  towTable
+  towTable,
+  Hour
 }

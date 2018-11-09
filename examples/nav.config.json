@@ -75,6 +75,11 @@
           "desc": "Twotable 二维表格",
           "path": "/twotable",
           "name": "twotable"
+        },
+        {
+          "desc": "Loading 加载",
+          "path": "/loading",
+          "name": "loading"
         }
       ]
     }

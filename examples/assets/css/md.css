@@ -2,9 +2,9 @@ section {
   color: #3f536e;
   font-size: 14px;
 }
-section div{
+/* section div{
   margin-top: 10px;
-}
+} */
 .demo-box>div{
   width: 95%;
   margin: 15px auto;
