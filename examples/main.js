@@ -5,7 +5,7 @@ import App from './App'
 import demoBlock from './components/demo-block.vue'
 import router from './router'
 import JKUI from '../packages/index'
-import '../packages/theme-default/lib/index.scss'
+import '../packages/theme-default/lib/index.css'
 
 Vue.component('demo-block', demoBlock)
 
