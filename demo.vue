@@ -63,7 +63,6 @@
   position: relative;
   background-color: #D7CED0;
   opacity: 0.9;
-  overflow: hidden;
   border-radius: 2px;
   animation: hour-rotate 4s ease-in-out infinite;
   display: inline-block;
@@ -123,24 +122,20 @@
  }
 
  .upper-sand{
-   width: 100px;
-   height: 100px;
+   width: 100%;
+   height: 100%;
    background-color: #409EFF;
    position: absolute;
-   height: 105px;
-   width: 50px;
    border-radius: 50%;
    top: 0px;
    overflow: hidden;
  }
 
  .lower-sand{
-   width: 100px;
-   height: 100px;
+  width: 100%;
+  height: 100%;
    background-color: #409EFF;
    position: absolute;
-   height: 105px;
-   width: 50px;
    border-radius: 50%;
    top: 0px;
    overflow: hidden;
@@ -164,7 +159,8 @@
    width: 5px;
    height: 0%;
    top: 50%;
-   left: 46%;
+   left: 50%;
+   box-sizing: border-box;
    border-radius: 40%;
    border: 1px sold #fff;
    animation: sand-falling 4s linear infinite;
@@ -309,24 +305,20 @@
  }
 
   .upper-sand-small{
-   width: 100px;
-   height: 100px;
+   width: 100%;
+   height: 100%;
    background-color: #409EFF;
    position: absolute;
-   height: 72px;
-   width: 32px;
    border-radius: 50%;
    top: 0px;
    overflow: hidden;
  }
 
  .lower-sand-small{
-   width: 100px;
-   height: 100px;
+  width: 100%;
+  height: 100%;
    background-color: #409EFF;
    position: absolute;
-   height: 72px;
-   width: 32px;
    border-radius: 50%;
    top: 0px;
    overflow: hidden;
