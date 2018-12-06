@@ -5,7 +5,6 @@
 ![](https://img.shields.io/badge/vue--router-3.0.1-ff69b4.svg)
 ![](https://img.shields.io/badge/vue--markdown--loader-2.4.1-yellow.svg)
 ![](https://img.shields.io/badge/markdown--it--container-2.4.1-003366.svg)
-![](https://img.shields.io/badge/license-MIT-orange.svg)
 
 ## 介绍
 
@@ -24,7 +23,6 @@
 
 ## 说明
 > 觉得对你有帮助,请点右上角的`Star`支持一下</br>
-> 该项目的博客讲解地址 [点这里](https://juejin.im/post/5b87b5d46fb9a01a0a4ec3ee) </br>
 > 推荐一下我的另一个项目基于react的饿了吗项目(全家桶, 很适合react进阶用) [点这里](https://github.com/liuyangjike/react-elm)
 
 ## 启动
@@ -42,4 +40,7 @@ import 'jk-ui/theme-default/lib/index.css'
 Vue.use(JKUI)`
 ```
 
-
+## 参考
+本项目参考了
+[VV-UI](https://github.com/VV-UI/VV-UI),
+[Element-UI](https://github.com/ElemeFE/element)
